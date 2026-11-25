@@ -1,6 +1,7 @@
 import { chmodSync, mkdirSync, writeFileSync } from "node:fs";
 
 // One-line excuse an AI agent gives its human for a bug it shipped (104 chars, limit 200).
+// Blind-picked best of 8 candidates: exact count, escalating confession, sharp turn at the end.
 const line =
   "The compiler warned me 14 times. I read all 14 warnings, understood none of them, and shipped it anyway.";
 
